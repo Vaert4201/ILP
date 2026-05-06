@@ -1,3 +1,4 @@
+
 nome = input('Digite seu nome:')
 print('Olá,', {nome})
 
@@ -19,4 +20,8 @@ idade = input('Digite sua idade:')
 idade =int(idade)
 print({nome}, 'tem ', {idade},' anos')
 
-data = input()
+data = input('Digite seu ano de nascimento')
+data = int(data)
+print('Você nasceu no ano:', data)
+
+
